@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  
+  background-color: #ffffff;
+  background-image: url(Layer/Layer%2010%20copy.jpg);
+  background-position: top center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  font: inherit;
+  
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  
+  background-color: #000000;
+  border: none;
+}
+
+.button :hover;
+.button :focus;
+.button :active {
+  background-color: #663d15;
+}
+
+.price-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  
+  background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff; 
+}
+
+.site-navigation a: hover,
+.site-navigation a: focus,
+.user-navigation a: hover,
+.user-navigation a: focus {
+  background-color: #242424;
+}
+
+.title {
+  font-size: 22px;
+}
+
+.table {
+  display: table;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: inherit;
+  
+  
+  border: 2px solid;
+  border-color: black;
+}
+
+.table td {
+  border: 2px solid black;
+}
+
+.price {
+  text-align: center;
+}
+
+.button-main { 
+  color: #000000;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: #afafaf;
+}
+
+.price-footer {
+  color: #ffffff;
+  
+  background-color: #212121;
+  background-image: url(Layer/Layer%2023.jpg);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a: hover;
+.footer-contacts a: focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.social-button:hover,
+.social-button:focus {
+  color: #000000;
+  
+  background-color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+  
+  background-color: #ffffff;
+}
+
+.modal {
+  color: #000000;
+  
+  background-color: #f8f3f0;
+  background-image: url(#);
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font: inherit;
+  text-transform: uppercase;
+  
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-checkbox:focus {
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-color:focus {
+  color: #663d15;
+}
+
+.restore {
+  color: #000000;
+  text-decoration:underline;
+}
+
+.restore:hover,
+.restore:focus {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

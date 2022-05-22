@@ -1,0 +1,132 @@
+<!Doctype html>
+<html>
+  <head lang="ru">
+    <meta charset="utf-8">
+    <title>Контакты</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/contacts-style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="contacts-header">
+       <nav class="contacts-navigation">
+         <a class="contacts-header-logo" href="index.html">
+           <img src="img/png/index-logo1.png" width="111" height="24" alt="Логотип барбершопа Бородинский">
+         </a>
+         
+         <div class="contacts-navigation-wrapper">
+         <div class="container">
+           <ul class="site-navigation">
+             <li>
+               <a class="button" href="info.html">Информация</a></li>
+             <li>
+               <a class="button" href="news.html">Новости</a></li>
+             <li>
+               <a class="button" href="price.html">Прайс-лист</a></li>
+             <li>
+               <a class="button" href="shop.html">Магазин</a></li>
+             <li>
+               <a class="button" href="contacts.html">Контакты</a></li>
+           </ul>
+           <ul class="user-navigation">
+             <li><a class="login-link" href="login.html">Вход</a></li>
+           </ul>
+         </div>
+         </div>
+       </nav>
+    </header> 
+    
+    <main class="container">
+      
+      <div class="body-navigation">
+      <a class="button-main" href="index.html">Главная</a>
+      <a class="disabled" href="contacts.html">Контакты</a>
+      </div>
+      
+      <h1 class="title">Наши Контакты:</h1>
+      
+      <h2 class="subtitle">Позвоните/Напишите нам</h2>
+      
+      <table class="table">
+        <tr>
+          <td>Наш менеджер</td>
+          <td><a href="tel +380669994466">+380669994466</a></td>
+        </tr>
+        <tr>
+          <td>Администратор</td>
+          <td><a href="tel +380669876543">+380669876543</a></td>
+        </tr>
+        <tr>
+          <td>Наша почта</td>
+          <td><a href="mailto: bellboy.dv@gmail.com">bellboy.dv@gmail.com</a></td>
+        </tr>
+      </table>
+      
+      <h2 class="subtitle">Наши социальные сети</h2>
+        <ul class="body-social">
+          <li><a class="body-social-button" href="#"><img src="svg/facebook.svg" width="40" height="40" alt="ссылка на наш Facebook"></a></li>
+          <li><a class="body-social-button" href="#"><img src="svg/instagram.svg" width="40" height="40" alt="ссылка на наш Instagram"></a></li>
+          <li><a class="body-social-button" href="#"><img src="svg/vk.svg" width="40" height="40" alt="ссылка на наш Vkontakte"></a></li>
+        </ul>
+      
+    </main>
+    
+    <footer class="price-footer">
+      <p class="footer-contacts">
+        Барбершоп Бородинский<br>
+        Адрес:г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
+        <a href="map.html">Как нас найти?</a><br>
+        Телефон:+380674569911
+      </p> 
+      
+      <div class="footer-social">
+        <p>Давайте Дружить!</p>
+        <ul>
+          <li><a class="social-button" href="#"><img src="svg/facebook.svg" width="20" height="20" alt="ссылка на наш Facebook"></a></li>
+          <li><a class="social-button" href="#"><img src="svg/instagram.svg" width="20" height="20" alt="ссылка на наш Instagram"></a></li>
+          <li><a class="social-button" href="#"><img src="svg/vk.svg" width="20" height="20" alt="ссылка на наш Vkontakte"></a></li>
+        </ul>
+      </div>
+      
+      <p>
+        <b class="footer-copyright">Разработано</b>
+        <a class="button" href="#">Ссылка на сайт разработчика</a>
+      </p>
+    </footer>
+    
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+        <form class="login-form" action="#" method="post">
+          <p>
+            <label class="visually-hidden" for="user-login">Логин</label>
+            <input id="user-login" placeholder="Логин">
+          </p>
+          <p>
+            <label class="visually-hidden" for="user-password">Пароль</label>
+            <input class="login-icon-password" id="user-password" name="Пароль" placeholder="******">
+          </p>
+          <p class="login-password-info">
+            <label class="login-checkbox">
+              <input type="checkbox" name="remember" class="visually-hidden">
+              <span class="checkbox-indicator"></span>
+                    Запомните меня
+            </label>
+            <a class="restore" href="#">Я забыл пароль!</a>  
+          </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+      <button class="modual-close" type="button">Закрыть</button>
+    </section>
+    
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как нас найти?</h2>
+        <p>
+          <img src="img/png/map.png" height="400" width="600" alt="Офис там-то и там-то!">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    
+  </body>
+
+</html>

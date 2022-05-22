@@ -1,0 +1,109 @@
+------- Демо -------
+
+body {
+  font-family: sans-serif;
+}
+
+.achivements {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 0;
+  padding: 20px;
+  
+  list-style: none;
+  background-color: #eeeeee;
+}
+
+/.achivement { 
+  flex-grow: 1;
+  
+  position: relative;
+  
+  width: 200px;
+  min-height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-left: 55px;
+  
+  background: white;
+  border: 2px solid #cccccc;
+}
+
+.achivement::before {
+  content: **;
+  
+  position: absolute;
+  left: 5px;
+  
+  width: 44px;
+  height: 44px;
+  
+  background-color: #0099ff;
+  background-image: linear-gradient(to right bottom, white, #0099ff);
+  border: 2px solid #cccccc; 
+}
+
+/.achivment-title {
+  margin: 0;
+  margin-left: 10px;
+  
+  font-size: 16px;
+}
+
+
+
+.achivement {
+  position: relative;
+  
+  display: inline-block;
+  width: 200px;
+  min-height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-left: 55px;
+  
+  vertical-align: top;
+  
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
+}
+
+.achivement-badge {
+  position: absolute;
+  left: 5px;
+  
+  width: 44px;
+  height: 44px;
+  
+  background: #0099ff;
+  border: 3px solid #cccccc;
+  border-radius: 4px;
+}
+
+.achivement-title {
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

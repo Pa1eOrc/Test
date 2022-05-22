@@ -1,0 +1,153 @@
+<!Doctype html>
+<html>
+
+  <head lang="ru">
+    <meta charset="utf-8">
+    <title>Прайс-лист</title>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style-price.css" rel="stylesheet">
+  </head> 
+  
+  <body>
+    <header class="price-header">
+      
+        <nav class="price-navigation">
+          <a class="price-header-logo" href="index.html">
+            <img src="img/png/index-logo1.png" width="111" height="24" alt="Логотип Барбершопа Бородинский"> 
+          </a>
+          <div class="price-navigation-wraper">
+            <div class="container">
+              <ul class="site-navigation">
+                <li>
+                  <a class="button" href="info.html">Информация</a></li>
+                <li>
+                  <a class="button" href="news.html">Новости</a></li>
+                <li>
+                  <a class="button" href="price.html">Прайс-лист</a></li>
+                <li>
+                  <a class="button" href="shop.html">Магазин</a></li>
+                <li>
+                  <a class="button" href="contacts.html">Контакты</a> </li>
+              </ul>
+              <ul class="user-navigation"> 
+                <li><a class="login-link" href="login.html">Вход</a></li>
+              </ul>
+            </div>  
+          </div>
+        </nav>
+      
+    </header>
+    
+    <main class="container">
+      
+      <h1 class="title">Прайс-лист</h1>
+      
+      <div class="body-navigation">
+        <a class="button-main" href="index.html">Главная</a>
+        <a class="disabled" href="price.html">Прайс-лист</a>
+      </div>
+        
+      <div class="price-columns">
+        <img class="img1" src="img/jpg/Layer%2024.png" width="160" height="2" alt="">
+        <blockquote class="slogan">Истининно Мужская Классика</blockquote>
+        <img class="img2" src="img/jpg/Layer%2024.png" width="160" height="2" alt="">
+      </div>
+      
+      <div>
+        <h2 class="subtitle">Мы используем только лучшие средства:</h2>
+          <ul>
+            <li class="text">Baxter of California</li>
+            <li class="text">MR Natty</li>
+            <li class="text">Suavecito</li>
+            <li class="text">Malin+Goetz</li>
+          </ul>
+          
+        <h2 class="subtitle">Цены на услуги наших мастеров:</h2>
+        <table class="table">
+          <tr>
+            <td class="option">Стрижка</td>
+            <td class="price">1500грн</td>
+          </tr> 
+          <tr>
+            <td class="option">Стрижка Бороды</td>
+            <td class="price">500грн</td>
+          </tr>
+          <tr>
+            <td class="option">Накрутка Усов</td>
+            <td class="price">350грн</td>
+          </tr>
+        </table>
+      </div>
+      
+        <h3 class="subtitle">Несколько слов о нас:</h3>
+          <div>
+            <p class="text">Наша парикмахерская занимаеться исключительно мужским<br>        стрижками.Стрижка каждого клиента для нас-это уникальная<br>
+            и продуманая до мелочей работа.Мы не работаем на<br>
+            количество, мы делаем качество.</p>
+            <p class="text">Наша мастерская расположена в центре города, поэтому<br>
+              сделать стильную стрижку можно в любое время, даже в<br> обеденный перерыв. Здесь вы можете погрузиться в удобную<br>
+              для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+          </div>
+      
+    </main>
+    
+    
+    <footer class="price-footer">
+      <p class="footer-contacts">
+        Барбершоп Бородинский<br>
+        Адрес:г.Санкт-Петербург, ул.Б.Конюшенная,д.19/8<br>
+        <a href="map.html">Как нас найти?</a><br>
+        Телефон:+380674569911
+      </p> 
+      
+      <div class="footer-social">
+        <p>Давайте Дружить!</p>
+        <ul>
+          <li><a class="social-button" href="#"><img src="svg/facebook.svg" width="20" height="20" alt="ссылка на наш Facebook"></a></li>
+          <li><a class="social-button" href="#"><img src="svg/instagram.svg" width="20" height="20" alt="ссылка на наш Instagram"></a></li>
+          <li><a class="social-button" href="#"><img src="svg/vk.svg" width="20" height="20" alt="ссылка на наш Vkontakte"></a></li>
+        </ul>
+      </div>
+      
+      <p>
+        <b class="footer-copyright">Разработано</b>
+        <a class="button" href="#">Ссылка на сайт разработчика</a>
+      </p>
+    </footer>
+    
+    <section class="modal modal-login">
+      <h2>Личный кабинет</h2>
+        <form class="login-form" action="#" method="post">
+          <p>
+            <label class="visually-hidden" for="user-login">Логин</label>
+            <input id="user-login" placeholder="Логин">
+          </p>
+          <p>
+            <label class="visually-hidden" for="user-password">Пароль</label>
+            <input class="login-icon-password" id="user-password" name="Пароль" placeholder="******">
+          </p>
+          <p class="login-password-info">
+            <label class="login-checkbox">
+              <input type="checkbox" name="remember" class="visually-hidden">
+              <span class="checkbox-indicator"></span>
+                    Запомните меня
+            </label>
+            <a class="restore" href="#">Я забыл пароль!</a>  
+          </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+      <button class="modual-close" type="button">Закрыть</button>
+    </section>
+    
+    <section class="modal modal-map">
+      <h2 class="visually-hidden">Как нас найти?</h2>
+        <p>
+          <img src="img/png/map.png" height="400" width="600" alt="Офис там-то и там-то!">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
+    
+  </body>
+
+</html>
